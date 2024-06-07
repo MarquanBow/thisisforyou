@@ -21,7 +21,7 @@ body{
 }
 .text_button{
     position: absolute ;
-    bottom: 475px;
+    bottom: 85%;
     left: 41%
 }
 .welcome{
