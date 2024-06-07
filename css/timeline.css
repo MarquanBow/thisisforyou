@@ -10,7 +10,7 @@ li {
 	grid-column: span 2;
 	text-align: center;
 	border-radius: 65px;
-	color: #fff;
+	color: #000000;
 	font-weight: bold;
 	font-size: 25px;
 	line-height: 1.5em;
@@ -18,14 +18,14 @@ li {
 	position: relative;
 	padding: 20px;
 	border: 20px solid #0000;
-	background: linear-gradient(#e71e07 0 0) content-box,
-		linear-gradient(var(--c, #fcd000) 0 0) padding-box,
-		linear-gradient(var(--d, 90deg), #0000 75%, #db10ee 0) border-box;
+	background: linear-gradient(#d3d3d3 0 0) content-box,
+		linear-gradient(var(--c, #FFD1DC) 0 0) padding-box,
+		linear-gradient(var(--d, 90deg), #0000 75%, #e6e6fa 0) border-box;
 }
 li:nth-child(even) {
 	grid-column-end: -1;
 	--d: -90deg;
-	--c: #009cda;
+	--c: #ffd1dc;
 }
 li:not(:last-child) {
 	margin-bottom: -20px;
@@ -57,13 +57,13 @@ time:before {
 	top: calc(50% - 5px);
 	right: calc(100% + 5px);
 	width: 65px;
-	background: repeating-linear-gradient(-90deg, #fcd000 0 5px, #0000 0 10px) 50%/100%
+	background: repeating-linear-gradient(-90deg, #ffffe0 0 5px, #0000 0 10px) 50%/100%
 		2px no-repeat;
 }
 li:nth-child(even) time:before {
 	right: auto;
 	left: calc(100% + 5px);
-	background: repeating-linear-gradient(90deg, #009cda 0 5px, #0000 0 10px) 50%/100%
+	background: repeating-linear-gradient(90deg, #ffd1dc 0 5px, #0000 0 10px) 50%/100%
 		2px no-repeat;
 }
 
@@ -74,11 +74,11 @@ p {
 
 html {
 	background: 
-		radial-gradient(farthest-side at top right, #db10ee 98%, #0000)
+		radial-gradient(farthest-side at top right, #e6e6fa 98%, #0000)
 			calc(50% - 10px) 0/20px 20px no-repeat,
-		radial-gradient(farthest-side at bottom right, #db10ee 98%, #0000)
+		radial-gradient(farthest-side at bottom right, #e6e6fa 98%, #0000)
 			calc(50% - 10px) 100%/20px 20px no-repeat,
-		linear-gradient(90deg, #fcd000 50%, #00fc7e 0);
+		linear-gradient(90deg, #ffffe0 50%, #98ff98 0);
 }
 
 body {
