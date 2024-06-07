@@ -54,5 +54,5 @@ li:nth-child(3n - 1)::marker {
 
 button {
     position: absolute;
-    left: 40%
+    left: 50%
 }
